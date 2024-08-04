@@ -12,7 +12,7 @@ def searchInsert(nums, target):
     high = len(nums) -1
     mid = 0
 
-    while(low < high):
+    while(low <= high):
         mid = int(( low + high ) / 2)
 
         if nums[mid] == target:
@@ -22,7 +22,11 @@ def searchInsert(nums, target):
         elif target > nums[mid]:
             low = mid + 1
 
-    return mid
+    if target > nums[mid]:
+        return mid + 1
+    elif target < nums[mid]:
+        return mid
 
-
-print(searchInsert([1,3,5,6], 6))
+for i in range(1,7):
+    print(searchInsert([1,2,3,4,5,6], i))
+    print(" ")
