@@ -1,4 +1,4 @@
-# Plus One
+# Plus One (66, array, easy)
 
 # You are given a large integer represented as an integer array digits, where
 # each digits[i] is the ith digit of the integer. The digits are ordered from

@@ -1,4 +1,5 @@
-# Remove Duplicates from Sorted Array
+# Remove Duplicates from Sorted Array (26, array, easy)
+
 # Given an integer array nums sorted in non-decreasing order, remove the
 # duplicates in-place such that each unique element appears only once. The
 # relative order of the elements should
@@ -8,7 +9,9 @@
 # Change the array nums such that the first k elements of nums contain the unique
 # elements in the order they were present in nums initially. The remaining elements
 # of nums are not important as well as the size of nums.
+
 # Example 1:
+
 # Input: nums = [1,1,2]
 # Output: 2, nums = [1,2,_]
 # Explanation: Your function should return k = 2, with the first two elements of nums
